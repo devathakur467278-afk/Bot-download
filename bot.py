@@ -1,4 +1,6 @@
 import os
+os.chmod("ffmpeg", 0o755)
+os.chmod("ffprobe", 0o755)
 import math
 import re
 import yt_dlp
